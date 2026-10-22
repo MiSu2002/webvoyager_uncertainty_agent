@@ -9,22 +9,22 @@ Official implementation and experimental testbed for **"Uncertainty-Calibrated P
 
 ## ⚙️ Installation & Environment Setup
 
-git clone https://github.com/MiSu2002/webvoyager_uncertainty_agent.git
-cd webvoyager_uncertainty_agent
-python3 -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-pip install -r requirements.txt
-playwright install chromium
+### git clone https://github.com/MiSu2002/webvoyager_uncertainty_agent.git
+### cd webvoyager_uncertainty_agent
+### python3 -m venv venv
+### source venv/bin/activate  # On Windows use: venv\Scripts\activate
+### pip install -r requirements.txt
+### playwright install chromium
 
 ## 🚀 Running Tests & Ablation Studies
 
-python -m tests.run_ablations
-python -m evaluation.run_benchmark
+### python -m tests.run_ablations
+### python -m evaluation.run_benchmark
 
 ## 📊 Evaluation Metrics
 
-Task Success Rate (SR): Percentage of WebVoyager evaluation tasks successfully reaching the target state.
-Trajectory-Checkpoint Expected Calibration Error (TC-ECE): Quantifies alignment between estimated failure risk Rt and empirical failure rates across execution checkpoints.
+### **Task Success Rate (SR):** Percentage of WebVoyager evaluation tasks successfully reaching the target state.
+### **Trajectory-Checkpoint Expected Calibration Error (TC-ECE):** Quantifies alignment between estimated failure risk Rt and empirical failure rates across execution checkpoints.
 
 ## 📂 Project Repository Structure
 
