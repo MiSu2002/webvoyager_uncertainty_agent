@@ -1,0 +1,18 @@
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Playwright browser binaries or local test artifacts
+test-results/
+playwright-report/
+
+# IDE specific files
+.vscode/
+.idea/
+.DS_Store
